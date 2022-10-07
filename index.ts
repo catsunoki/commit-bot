@@ -1,7 +1,6 @@
 import jsonfile from 'jsonfile';
 import moment from 'moment';
 import simpleGit from 'simple-git'
-import random from 'random'
 
 const FILE_PATH: string = './data.json';
 const makeCommit = (x: number) => {
